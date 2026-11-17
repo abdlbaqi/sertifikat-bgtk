@@ -25,6 +25,7 @@ class TemplateSertifikat extends Model
         'tampilkan_garis_tepi',
         'tampilkan_qr_code',
         'posisi_elemen',
+        'layout_json',
         'status_aktif',
         'is_bawaan',
         'deskripsi',
@@ -32,6 +33,7 @@ class TemplateSertifikat extends Model
 
     protected $casts = [
         'posisi_elemen' => 'array',
+        'layout_json'   => 'array',
         'tampilkan_garis_tepi' => 'boolean',
         'tampilkan_qr_code' => 'boolean',
         'status_aktif' => 'boolean',
